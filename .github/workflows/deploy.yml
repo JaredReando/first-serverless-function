@@ -2,9 +2,9 @@ name: deploy
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
-  main:
+  master:
     runs-on: ubuntu-latest
     steps:
       - name: ⬇️ Checkout repo
